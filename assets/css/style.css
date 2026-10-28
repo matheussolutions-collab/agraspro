@@ -2,16 +2,16 @@
    EDITAR cores: altere as variáveis abaixo (tema escuro em :root, tema claro em [data-theme="light"]). */
 
 :root {
-  --bg: #012a1b;
-  --surface: #023522;
-  --surface-2: #03412a;
+  --bg: #011d13;
+  --surface: #02291a;
+  --surface-2: #033422;
   --line: rgba(189, 254, 0, .12);
   --line-strong: rgba(189, 254, 0, .32);
   --text: #eef6ef;
   --muted: #9dbaa9;
   --accent: #bdfe00;
   --accent-ink: #bdfe00;
-  --on-accent: #012a1b;
+  --on-accent: #011d13;
   --glow: rgba(189, 254, 0, .16);
   --grid: rgba(189, 254, 0, .05);
   --shadow: 0 1px 0 rgba(255, 255, 255, .04) inset, 0 18px 40px -24px rgba(0, 0, 0, .7);
@@ -143,7 +143,7 @@ button { font: inherit; color: inherit; }
 
 .photo {
   width: 112px; height: 112px; border-radius: 28px; padding: 14px;
-  background: radial-gradient(circle at 50% 30%, #04462d, #012a1b 75%);
+  background: radial-gradient(circle at 50% 30%, #033a25, #011d13 75%);
   border: 1px solid var(--line-strong);
   box-shadow: 0 0 0 6px rgba(189, 254, 0, .05), var(--shadow);
 }
