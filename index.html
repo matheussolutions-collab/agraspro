@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- EDITAR: título e descrição que aparecem no Google e ao compartilhar o link -->
+  <title>AGRAS PRO | Drones Agrícolas DJI</title>
+  <meta name="description" content="Venda, peças e assistência técnica de drones agrícolas DJI Agras. Polos em Rondônia e Mato Grosso, com atendimento pelo WhatsApp.">
+  <meta property="og:title" content="AGRAS PRO | Drones Agrícolas DJI">
+  <meta property="og:description" content="Venda, peças e assistência técnica de drones agrícolas DJI Agras. Polos em Rondônia e Mato Grosso.">
+  <meta property="og:image" content="assets/img/banner-t55.jpg">
+  <meta name="theme-color" content="#012a1b">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+  <!-- Aplica o tema salvo antes de pintar a página (evita piscar) -->
+  <script>try { var t = localStorage.getItem('agras-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t) } catch (e) { }</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fontes carregam sem travar a página -->
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@500&amp;family=Saira:wght@600;700&amp;display=swap">
+  <link rel="stylesheet" media="print" onload="this.media='all'"
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@500&amp;family=Saira:wght@600;700&amp;display=swap">
+  <noscript><link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&amp;family=Geist+Mono:wght@500&amp;family=Saira:wght@600;700&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="lang-sweep" aria-hidden="true"></div>
+  <div class="gridbg" aria-hidden="true"></div>
+  <div class="bg" aria-hidden="true"></div>
+
+  <!--
+    TELEFONES (WhatsApp)
+    Principal / Polo Rondônia ... +55 69 9918-2945  → 556999182945
+    Polo Mato Grosso (Cuiabá) .... +55 65 99995-1335 → 5565999951335
+    EDITAR: para trocar um número, procure por ele neste arquivo e substitua em todos os links.
+  -->
+
+  <main class="page">
+
+    <!-- ===== TOPO: idioma + tema ===== -->
+    <div class="bar">
+      <div class="lang" role="group" aria-label="Idioma" data-i18n-aria="aria_lang">
+        <button type="button" data-lang="pt" aria-pressed="true">
+          <svg viewBox="0 0 16 11" aria-hidden="true">
+            <rect width="16" height="11" fill="#009b3a" />
+            <path d="M8 1.2 14.6 5.5 8 9.8 1.4 5.5Z" fill="#fedf00" />
+            <circle cx="8" cy="5.5" r="2.3" fill="#002776" />
+          </svg>PT
+        </button>
+        <button type="button" data-lang="en" aria-pressed="false">
+          <svg viewBox="0 0 16 11" aria-hidden="true">
+            <rect width="16" height="11" fill="#fff" />
+            <path d="M0 0h16v1.6H0zm0 3.1h16v1.6H0zm0 3.1h16v1.6H0zm0 3.1h16V11H0z" fill="#b22234" />
+            <rect width="7" height="6" fill="#3c3b6e" />
+          </svg>EN
+        </button>
+      </div>
+      <button id="theme" class="theme" type="button" aria-label="Alternar tema" data-i18n-aria="aria_theme">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          aria-hidden="true">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+        </svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- ===== PERFIL ===== -->
+    <section class="hero">
+      <!-- EDITAR: troque assets/img/icone.png (quadrada, fundo transparente, mín. 224×224 px) -->
+      <div class="photo"><img src="assets/img/icone.png" alt="Símbolo da AGRAS PRO" width="112" height="112"></div>
+      <div class="id">
+        <span class="status"><i></i><span data-i18n="status">Vendas e assistência técnica</span></span>
+        <h1 class="h1"><img class="brand-logo" src="assets/img/logo.png" alt="AGRAS PRO Drones Agrícolas" width="700" height="391"></h1>
+        <span class="handle" data-i18n="handle">Especialista DJI Agriculture · RO e MT</span>
+      </div>
+      <p class="bio" data-i18n="bio">Drones agrícolas DJI com venda, peças e assistência técnica. Atendimento de quem entende do campo, em Rondônia e Mato Grosso.</p>
+    </section>
+
+    <!-- ===== ATALHOS ===== -->
+    <nav class="social rv" style="--d:.1s" aria-label="Atalhos" data-i18n-aria="aria_social">
+      <a href="https://wa.me/556999182945?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20AGRAS%20PRO." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path
+            d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5a2.4 2.4 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.5-.3Z" />
+        </svg>WhatsApp
+      </a>
+      <!-- Abre a aba de assistência técnica -->
+      <a href="#assistencia" data-tab-link="assistencia">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.8-3.8a6 6 0 0 1-7.9 7.9l-6.9 6.9a2.1 2.1 0 0 1-3-3l6.9-6.9a6 6 0 0 1 7.9-7.9Z" />
+        </svg><span data-i18n="sv_short">Assistência</span>
+      </a>
+      <!-- Avaliar no Google (abre a ficha da loja no Maps) -->
+      <a href="https://maps.google.com/?cid=18351010677497632025" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9Z" />
+        </svg><span data-i18n="review">Avaliar</span>
+      </a>
+      <a href="#onde">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z" />
+          <circle cx="12" cy="9.5" r="2.5" />
+        </svg><span data-i18n="where_short">Localização</span>
+      </a>
+      <!-- EDITAR: para adicionar o Instagram, cole este bloco aqui com o @ da loja:
+      <a href="https://www.instagram.com/SEU_USUARIO/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" /><circle cx="12" cy="12" r="4" /><path d="M17.5 6.5h.01" /></svg>Instagram
+      </a>
+      -->
+    </nav>
+
+    <!-- ===== FAIXA ROLANDO =====
+         EDITAR: escreva as palavras uma vez só; o script duplica para o loop. -->
+    <div class="ticker rv" style="--d:.12s" aria-hidden="true">
+      <div>
+        <span>Agras T100</span><span>Agras T70P</span><span>Agras T55</span><span>Agras T25P</span>
+        <span>DJI Agriculture</span><span>Assistência técnica</span><span>Rondônia</span><span>Mato Grosso</span>
+      </div>
+    </div>
+
+    <!-- ===== BOTÃO PRINCIPAL ===== -->
+    <a class="cta sheen-host" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20drone%20agr%C3%ADcola%20DJI." target="_blank" rel="noopener">
+      <span class="sheen" aria-hidden="true"></span>
+      <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5a2.4 2.4 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.5-.3Z"/></svg></span>
+      <span class="tx">
+        <span class="t" data-i18n="cta_t">Peça seu orçamento</span>
+        <span class="d" data-i18n="cta_d">Fale com a AGRAS PRO no WhatsApp e receba preço, condições e disponibilidade do seu drone.</span>
+      </span>
+      <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7 17 17 7M8 7h9v9" />
+        </svg></span>
+    </a>
+
+    <!-- ===== ABAS: Drones / Assistência técnica ===== -->
+    <div class="tabs rv" style="--d:.14s" role="tablist" aria-label="Seções" data-i18n-aria="aria_tabs">
+      <button type="button" role="tab" id="tab-drones" aria-controls="drones" aria-selected="true" data-tab="drones">
+        <span data-i18n="tab_drones">Drones</span>
+      </button>
+      <button type="button" role="tab" id="tab-assistencia" aria-controls="assistencia" aria-selected="false" tabindex="-1" data-tab="assistencia">
+        <span data-i18n="tab_sv">Assistência técnica</span>
+      </button>
+    </div>
+
+    <!-- ===== ABA 1: PRODUTOS =====
+         EDITAR banner: cada banner tem 2 arquivos em assets/img, mesmo desenho:
+         banner-NOME.jpg (1200 × 540 px) e banner-NOME-800.jpg (800 × 360 px, para celular).
+         Ao trocar um banner, substitua os dois com o mesmo nome. -->
+    <section class="sec panel rv" style="--d:.15s" id="drones" role="tabpanel" aria-labelledby="tab-drones">
+      <div class="sec-h">
+        <h2 data-i18n="sec_t">Linha Agras</h2>
+        <span class="idx">// 04</span>
+      </div>
+      <p class="sec-p" data-i18n="sec_p">Drones de pulverização DJI Agriculture,<br>do compacto T25P ao gigante T100.</p>
+
+      <div class="cards">
+        <!-- Lançamento -->
+        <article class="card card-new">
+          <a class="img" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T55." target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-t55.jpg" srcset="assets/img/banner-t55-800.jpg 800w, assets/img/banner-t55.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="Drone DJI Agras T55 sobrevoando plantação de milho ao pôr do sol" fetchpriority="high"
+              width="1200" height="540"></a>
+          <span class="badge"><i aria-hidden="true"></i><span data-i18n="new">Lançamento</span></span>
+          <a class="row" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T55." target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">DJI Agras T55 <em>55 kg</em></span>
+              <span class="d" data-i18n="pr_t55">O futuro da pulverização chegou. Capacidade de 55 kg e uma operação simples do início ao fim: agricultura, simplificada.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Orçamento</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="img" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T100." target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-t100.jpg" srcset="assets/img/banner-t100-800.jpg 800w, assets/img/banner-t100.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="Drone DJI Agras T100 sobre lavoura verde" loading="lazy"
+              width="1200" height="540"></a>
+          <a class="row" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T100." target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">DJI Agras T100 <em>100 kg</em></span>
+              <span class="d" data-i18n="pr_t100">Grandes drones, grandes trabalhos. Capacidade de 100 kg e eficiência operacional dobrada, pronto para múltiplos cenários de aplicação.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Orçamento</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="img" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T70P." target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-t70p.jpg" srcset="assets/img/banner-t70p-800.jpg 800w, assets/img/banner-t70p.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="Drone DJI Agras T70P sobre plantação em linhas" loading="lazy"
+              width="1200" height="540"></a>
+          <a class="row" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T70P." target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">DJI Agras T70P <em>70 kg</em></span>
+              <span class="d" data-i18n="pr_t70p">Eficiência e resultado no campo. Capacidade de 70 kg com operação eficiente e desempenho excepcional para grandes áreas.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Orçamento</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="img" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T25P." target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-t25p.jpg" srcset="assets/img/banner-t25p-800.jpg 800w, assets/img/banner-t25p.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="Drone DJI Agras T25P sobre lavoura ao amanhecer" loading="lazy"
+              width="1200" height="540"></a>
+          <a class="row" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20DJI%20Agras%20T25P." target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">DJI Agras T25P <em>25 kg</em></span>
+              <span class="d" data-i18n="pr_t25p">Voa sozinho. Produz para você. Compacto, com capacidade de 25 kg e operação totalmente automática.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Orçamento</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== ABA 2: ASSISTÊNCIA TÉCNICA =====
+         Link direto para esta aba: seusite.com.br/#assistencia -->
+    <section class="sec panel" id="assistencia" role="tabpanel" aria-labelledby="tab-assistencia" hidden>
+      <div class="sec-h">
+        <h2 data-i18n="sv_t">Assistência técnica</h2>
+        <span class="idx">// SAT</span>
+      </div>
+      <p class="sec-p" data-i18n="sv_p">Manutenção especializada em DJI Agras<br>para o seu drone não parar na safra.</p>
+
+      <ul class="services">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5M8 11h6M11 8v6" /></svg>
+          <span class="t" data-i18n="s1_t">Diagnóstico e reparo</span>
+          <span class="d" data-i18n="s1_d">Avaliação completa e conserto de motores, braços, bombas e eletrônica.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2" /><path d="M9 3v2h6V3M9 11l2 2 4-4M9 17h6" /></svg>
+          <span class="t" data-i18n="s2_t">Revisão preventiva</span>
+          <span class="d" data-i18n="s2_d">Limpeza, inspeção e checklist antes e depois da safra.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="7" width="16" height="10" rx="2" /><path d="M21 11v2M10 9l-2 3h4l-2 3" /></svg>
+          <span class="t" data-i18n="s3_t">Baterias e carregadores</span>
+          <span class="d" data-i18n="s3_d">Teste, avaliação e manutenção de baterias e estações de carga.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4" /><circle cx="12" cy="12" r="3" /></svg>
+          <span class="t" data-i18n="s4_t">Peças e acessórios</span>
+          <span class="d" data-i18n="s4_d">Hélices, bicos, bombas e acessórios para toda a linha Agras.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M2 14h4M10 8h4M18 16h4" /></svg>
+          <span class="t" data-i18n="s5_t">Calibração e firmware</span>
+          <span class="d" data-i18n="s5_d">Calibração de sensores e do sistema de pulverização, com firmware em dia.</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z" /><path d="M8 9h8M8 13h5" /></svg>
+          <span class="t" data-i18n="s6_t">Suporte ao operador</span>
+          <span class="d" data-i18n="s6_d">Ajuda para configurar o drone e tirar dúvidas de operação.</span>
+        </li>
+      </ul>
+
+      <p class="sec-sub" data-i18n="sv_open">Abra um chamado no polo mais perto de você:</p>
+      <div class="links">
+        <a class="link link-feature sheen-host" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Preciso%20de%20assist%C3%AAncia%20t%C3%A9cnica%20para%20o%20meu%20drone%20DJI%20Agras%20(Polo%20Rond%C3%B4nia)." target="_blank" rel="noopener">
+          <span class="sheen" aria-hidden="true"></span>
+          <span class="n">RO</span>
+          <span class="tx">
+            <span class="t-row">
+              <span class="t" data-i18n="p_ro">Polo Rondônia</span>
+              <span class="tag"><i aria-hidden="true"></i>(69) 9918-2945</span>
+            </span>
+            <span class="d" data-i18n="sv_ro">Assistência técnica em Porto Velho e região.</span>
+          </span>
+          <span class="go"><span data-i18n="sv_go">Chamar</span><svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 17 17 7M8 7h9v9" />
+            </svg></span>
+        </a>
+        <a class="link link-feature sheen-host" href="https://wa.me/5565999951335?text=Ol%C3%A1!%20Preciso%20de%20assist%C3%AAncia%20t%C3%A9cnica%20para%20o%20meu%20drone%20DJI%20Agras%20(Polo%20Mato%20Grosso)." target="_blank" rel="noopener">
+          <span class="sheen" aria-hidden="true"></span>
+          <span class="n">MT</span>
+          <span class="tx">
+            <span class="t-row">
+              <span class="t" data-i18n="p_mt">Polo Mato Grosso</span>
+              <span class="tag"><i aria-hidden="true"></i>(65) 99995-1335</span>
+            </span>
+            <span class="d" data-i18n="sv_mt">Assistência técnica em Cuiabá e região.</span>
+          </span>
+          <span class="go"><span data-i18n="sv_go">Chamar</span><svg viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M7 17 17 7M8 7h9v9" />
+            </svg></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== LINKS ===== -->
+    <section class="links rv" style="--d:.2s">
+      <a class="link sheen-host" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20falar%20com%20um%20vendedor." target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">01</span>
+        <span class="tx">
+          <span class="t" data-i18n="l1_t">Fale com um vendedor</span>
+          <span class="d" data-i18n="l1_d">Tire dúvidas, compare modelos e confira condições pelo WhatsApp.</span>
+        </span>
+        <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <a class="link sheen-host" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Preciso%20de%20pe%C3%A7as%20e%20acess%C3%B3rios%20para%20drone%20DJI%20Agras." target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">02</span>
+        <span class="tx">
+          <span class="t" data-i18n="l2_t">Peças e acessórios</span>
+          <span class="d" data-i18n="l2_d">Hélices, baterias, bicos e reposição para a linha Agras.</span>
+        </span>
+        <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <a class="link sheen-host" href="#assistencia" data-tab-link="assistencia">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">03</span>
+        <span class="tx">
+          <span class="t" data-i18n="l3_t">Assistência técnica</span>
+          <span class="d" data-i18n="l3_d">Manutenção, revisão e reparo do seu drone DJI Agras.</span>
+        </span>
+        <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <!-- Destaque: Polo Rondônia -->
+      <a class="link link-feature sheen-host" href="https://wa.me/556999182945?text=Ol%C3%A1!%20Quero%20falar%20com%20o%20Polo%20Rond%C3%B4nia." target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">RO</span>
+        <span class="tx">
+          <span class="t-row">
+            <span class="t" data-i18n="p_ro">Polo Rondônia</span>
+            <span class="tag"><i aria-hidden="true"></i>Porto Velho</span>
+          </span>
+          <span class="d">(69) 9918-2945 · <span data-i18n="p_d">vendas, peças e assistência</span></span>
+        </span>
+        <span class="go"><span data-i18n="p_go">Conversar</span><svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <!-- Destaque: Polo Mato Grosso -->
+      <a class="link link-feature sheen-host" href="https://wa.me/5565999951335?text=Ol%C3%A1!%20Quero%20falar%20com%20o%20Polo%20Mato%20Grosso." target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">MT</span>
+        <span class="tx">
+          <span class="t-row">
+            <span class="t" data-i18n="p_mt">Polo Mato Grosso</span>
+            <span class="tag"><i aria-hidden="true"></i>Cuiabá</span>
+          </span>
+          <span class="d">(65) 99995-1335 · <span data-i18n="p_d">vendas, peças e assistência</span></span>
+        </span>
+        <span class="go"><span data-i18n="p_go">Conversar</span><svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+    </section>
+
+    <!-- ===== MAPA =====
+         EDITAR: para outro local, no Google Maps clique em Compartilhar > Incorporar um mapa,
+         copie só o endereço do src="…" e cole no src do <iframe> abaixo. -->
+    <section class="map rv" style="--d:.25s" id="onde">
+      <div class="sec-h">
+        <h2 data-i18n="map_t">Onde estamos</h2>
+        <a class="more" href="https://maps.google.com/?cid=18351010677497632025" target="_blank" rel="noopener" data-i18n="map_open">Abrir no Maps ↗</a>
+      </div>
+      <p class="sec-p" data-i18n="map_p">AGRAS PRO · Porto Velho, RO</p>
+      <div class="map-box">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3933.563942479802!2d-63.9681751!3d-9.6327621!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93cd4b80d4af739b%3A0xfeabe2fbbda59519!2sAGRAS%20PRO%20%7C%20Drones%20Agr%C3%ADcolas!5e0!3m2!1spt-BR!2sbr!4v1793151913377!5m2!1spt-BR!2sbr"
+          title="Mapa: AGRAS PRO | Drones Agrícolas" loading="lazy" allowfullscreen
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+    </section>
+
+    <!-- O ano atualiza sozinho -->
+    <p class="copy">© <span data-ano>2026</span> AGRAS PRO Drones Agrícolas. <span data-i18n="rights">Todos os direitos reservados.</span></p>
+
+  </main>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

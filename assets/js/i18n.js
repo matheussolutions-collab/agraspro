@@ -1,0 +1,132 @@
+/* Textos da página em cada idioma.
+   EDITAR: cada chave corresponde a um data-i18n="chave" no index.html.
+   O texto em português também está escrito no HTML (aparece antes do script carregar). */
+window.I18N = {
+  pt: {
+    aria_lang: 'Idioma',
+    aria_theme: 'Alternar tema',
+    aria_social: 'Atalhos',
+    aria_tabs: 'Seções',
+
+    status: 'Vendas e assistência técnica',
+    handle: 'Especialista DJI Agriculture · RO e MT',
+    bio: 'Drones agrícolas DJI com venda, peças e assistência técnica. Atendimento de quem entende do campo, em Rondônia e Mato Grosso.',
+    sv_short: 'Assistência',
+    review: 'Avaliar',
+    where_short: 'Localização',
+
+    cta_t: 'Peça seu orçamento',
+    cta_d: 'Fale com a AGRAS PRO no WhatsApp e receba preço, condições e disponibilidade do seu drone.',
+
+    tab_drones: 'Drones',
+    tab_sv: 'Assistência técnica',
+
+    sec_t: 'Linha Agras',
+    sec_p: 'Drones de pulverização DJI Agriculture,<br>do compacto T25P ao gigante T100.',
+    new: 'Lançamento',
+    buy: 'Orçamento',
+    pr_t55: 'O futuro da pulverização chegou. Capacidade de 55 kg e uma operação simples do início ao fim: agricultura, simplificada.',
+    pr_t100: 'Grandes drones, grandes trabalhos. Capacidade de 100 kg e eficiência operacional dobrada, pronto para múltiplos cenários de aplicação.',
+    pr_t70p: 'Eficiência e resultado no campo. Capacidade de 70 kg com operação eficiente e desempenho excepcional para grandes áreas.',
+    pr_t25p: 'Voa sozinho. Produz para você. Compacto, com capacidade de 25 kg e operação totalmente automática.',
+
+    sv_t: 'Assistência técnica',
+    sv_p: 'Manutenção especializada em DJI Agras<br>para o seu drone não parar na safra.',
+    s1_t: 'Diagnóstico e reparo',
+    s1_d: 'Avaliação completa e conserto de motores, braços, bombas e eletrônica.',
+    s2_t: 'Revisão preventiva',
+    s2_d: 'Limpeza, inspeção e checklist antes e depois da safra.',
+    s3_t: 'Baterias e carregadores',
+    s3_d: 'Teste, avaliação e manutenção de baterias e estações de carga.',
+    s4_t: 'Peças e acessórios',
+    s4_d: 'Hélices, bicos, bombas e acessórios para toda a linha Agras.',
+    s5_t: 'Calibração e firmware',
+    s5_d: 'Calibração de sensores e do sistema de pulverização, com firmware em dia.',
+    s6_t: 'Suporte ao operador',
+    s6_d: 'Ajuda para configurar o drone e tirar dúvidas de operação.',
+    sv_open: 'Abra um chamado no polo mais perto de você:',
+    sv_ro: 'Assistência técnica em Porto Velho e região.',
+    sv_mt: 'Assistência técnica em Cuiabá e região.',
+    sv_go: 'Chamar',
+
+    l1_t: 'Fale com um vendedor',
+    l1_d: 'Tire dúvidas, compare modelos e confira condições pelo WhatsApp.',
+    l2_t: 'Peças e acessórios',
+    l2_d: 'Hélices, baterias, bicos e reposição para a linha Agras.',
+    l3_t: 'Assistência técnica',
+    l3_d: 'Manutenção, revisão e reparo do seu drone DJI Agras.',
+    p_ro: 'Polo Rondônia',
+    p_mt: 'Polo Mato Grosso',
+    p_d: 'vendas, peças e assistência',
+    p_go: 'Conversar',
+
+    map_t: 'Onde estamos',
+    map_open: 'Abrir no Maps ↗',
+    map_p: 'AGRAS PRO · Porto Velho, RO',
+    rights: 'Todos os direitos reservados.'
+  },
+
+  en: {
+    aria_lang: 'Language',
+    aria_theme: 'Toggle theme',
+    aria_social: 'Shortcuts',
+    aria_tabs: 'Sections',
+
+    status: 'Sales & technical service',
+    handle: 'DJI Agriculture specialist · RO & MT',
+    bio: 'DJI agricultural drones with sales, parts and technical service. Support from people who know the field, in Rondônia and Mato Grosso, Brazil.',
+    sv_short: 'Service',
+    review: 'Review',
+    where_short: 'Location',
+
+    cta_t: 'Get a quote',
+    cta_d: 'Talk to AGRAS PRO on WhatsApp and get price, terms and availability for your drone.',
+
+    tab_drones: 'Drones',
+    tab_sv: 'Technical service',
+
+    sec_t: 'Agras lineup',
+    sec_p: 'DJI Agriculture spraying drones,<br>from the compact T25P to the giant T100.',
+    new: 'New release',
+    buy: 'Get a quote',
+    pr_t55: 'The future of spraying is here. 55 kg capacity and a simple operation from start to finish: agriculture, simplified.',
+    pr_t100: 'Big drones, big jobs. 100 kg capacity and doubled operating efficiency, ready for multiple application scenarios.',
+    pr_t70p: 'Efficiency and results in the field. 70 kg capacity with efficient operation and outstanding performance for large areas.',
+    pr_t25p: 'It flies on its own. It works for you. Compact, with 25 kg capacity and fully automatic operation.',
+
+    sv_t: 'Technical service',
+    sv_p: 'Specialized DJI Agras maintenance<br>so your drone never stops during harvest.',
+    s1_t: 'Diagnosis & repair',
+    s1_d: 'Full inspection and repair of motors, arms, pumps and electronics.',
+    s2_t: 'Preventive service',
+    s2_d: 'Cleaning, inspection and checklist before and after the season.',
+    s3_t: 'Batteries & chargers',
+    s3_d: 'Testing, evaluation and maintenance of batteries and charging stations.',
+    s4_t: 'Parts & accessories',
+    s4_d: 'Propellers, nozzles, pumps and accessories for the whole Agras line.',
+    s5_t: 'Calibration & firmware',
+    s5_d: 'Sensor and spray system calibration, with up-to-date firmware.',
+    s6_t: 'Pilot support',
+    s6_d: 'Help setting up your drone and answering operation questions.',
+    sv_open: 'Open a service request at your nearest branch:',
+    sv_ro: 'Technical service in Porto Velho and region.',
+    sv_mt: 'Technical service in Cuiabá and region.',
+    sv_go: 'Contact',
+
+    l1_t: 'Talk to a sales rep',
+    l1_d: 'Ask questions, compare models and check terms on WhatsApp.',
+    l2_t: 'Parts & accessories',
+    l2_d: 'Propellers, batteries, nozzles and spare parts for the Agras line.',
+    l3_t: 'Technical service',
+    l3_d: 'Maintenance, service and repair for your DJI Agras drone.',
+    p_ro: 'Rondônia branch',
+    p_mt: 'Mato Grosso branch',
+    p_d: 'sales, parts and service',
+    p_go: 'Chat',
+
+    map_t: 'Find us',
+    map_open: 'Open in Maps ↗',
+    map_p: 'AGRAS PRO · Porto Velho, RO',
+    rights: 'All rights reserved.'
+  }
+};
