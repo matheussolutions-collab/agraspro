@@ -9,7 +9,7 @@ window.I18N = {
     aria_tabs: 'Seções',
 
     status: 'Vendas e assistência técnica',
-    handle: 'Especialista DJI Agriculture · RO e MT',
+    handle: 'Especialista DJI Agriculture',
     bio: 'Drones agrícolas DJI com venda, peças e assistência técnica. Atendimento de quem entende do campo, em Rondônia e Mato Grosso.',
     sv_short: 'Assistência',
     review: 'Avaliar',
@@ -73,7 +73,7 @@ window.I18N = {
     aria_tabs: 'Sections',
 
     status: 'Sales & technical service',
-    handle: 'DJI Agriculture specialist · RO & MT',
+    handle: 'DJI Agriculture specialist',
     bio: 'DJI agricultural drones with sales, parts and technical service. Support from people who know the field, in Rondônia and Mato Grosso, Brazil.',
     sv_short: 'Service',
     review: 'Review',

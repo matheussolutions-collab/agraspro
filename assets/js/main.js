@@ -60,6 +60,7 @@
   var tabs = Array.prototype.slice.call(document.querySelectorAll('[role="tab"]'));
 
   function selectTab(id, focus) {
+    root.setAttribute('data-tab', id);
     tabs.forEach(function (t) {
       var on = t.dataset.tab === id;
       t.setAttribute('aria-selected', String(on));

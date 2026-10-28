@@ -1,1 +1,4 @@
 .DS_Store
+# Pacote para a hospedagem (gerado a partir dos arquivos do site)
+publicar/
+agraspro-site.zip
